@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>ToDo_v.1</title>
+
+	<link rel="stylesheet" href="./css/2DOO_styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+<body>
+<header class="header">
+  <h2>What are my to-do's today?</h2>
+</header>
+<label>
+<div class="upload">
+<i class="fa fa-plus-circle fa-2x" aria-hidden="true"><input type="file" id="fileToUpload"></i>
+</div>
+</label>
+<form name="checkListForm" method="post" action="">
+<input class="input" type="text" placeholder="New to-do..."  name="checkListItem">
+  <button id="button" type="submit">Update</button>
+</form>
+
+
+<div class="list" id="list"></div>
+
+
+
+
+    
+	<script src="./js/jquery.min.js"></script>
+	<script src="/js/Sortable.min.js"></script>
+	<script src="./js/script.js"></script>
+
+	
+</body>
+</html>
